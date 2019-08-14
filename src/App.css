@@ -1,10 +1,11 @@
 .container{
-    background: red;
+    background: #A63C40;
     border-radius: 10px;
-    height: 500px;
-    width: 300px;
+    height: 445px;
+    width: 270px;
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 
 .logo{
@@ -16,18 +17,20 @@
 .display{
     background: black;
     color: white;
-    height: 50px;
-    width: 250px;
+    height: 60px;
+    width: 255px;
     text-align: right;
     line-height: 50px;
     border-radius: 50px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-right: 10px;
+    font-size: 2rem;
 }
 
 .numberClass{
-    background: blue;
+    background: #004C76;
     border-radius: 100%;
     color: white;
     height: 50px;
@@ -35,11 +38,15 @@
     box-shadow: 2px 2px black;
     border: none;
     margin:5px;
-
 }
 
+.numberClass:nth-child(10){
+    width: 120px;
+    border-radius: 50px;
+
+}
 .operatorClass{
-    background: green;
+    background: #1A7490;
     border-radius: 100%;
     color: white;
     height: 50px;
@@ -50,7 +57,7 @@
 }
 
 .specialClass{
-    background: teal;
+    background: #01679A;
     border-radius: 100%;
     color: white;
     height: 50px;
@@ -58,4 +65,33 @@
     box-shadow: 2px 2px  black;
     border: none;
     margin:5px;
+}
+
+/* BUTTON CONTAINERS */
+.buttonContainer{
+    display: flex;
+}
+
+.numbersContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.operatorContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.specialContainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.number-special-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
