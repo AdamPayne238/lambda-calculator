@@ -1,0 +1,61 @@
+.container{
+    background: red;
+    border-radius: 10px;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    height: 30px;
+    width: 100px;
+    padding: 15px 0 0 15px;
+}
+
+.display{
+    background: black;
+    color: white;
+    height: 50px;
+    width: 250px;
+    text-align: right;
+    line-height: 50px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.numberClass{
+    background: blue;
+    border-radius: 100%;
+    color: white;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px black;
+    border: none;
+    margin:5px;
+
+}
+
+.operatorClass{
+    background: green;
+    border-radius: 100%;
+    color: white;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px black;
+    border: none;
+    margin:5px;
+}
+
+.specialClass{
+    background: teal;
+    border-radius: 100%;
+    color: white;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px  black;
+    border: none;
+    margin:5px;
+}

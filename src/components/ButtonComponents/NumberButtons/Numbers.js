@@ -18,7 +18,7 @@ const Numbers = (props) => {
        return <NumberButton key={number}
                             text={number} 
                             addNumber={props.addNumber}
-                              />
+                            />
        })}
     {/* Deleted this old button<NumberButton /> */}
     </div>
